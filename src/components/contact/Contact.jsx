@@ -11,7 +11,7 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_1veg46k', 'template_9qspleg', form.current, 'D1wFZEYmhmxk-Rimg')
+    emailjs.sendForm('service_g8gn7u9', 'template_tvf1fwm', form.current, 'Ucn4NmymTiNYxbkxO')
    e.target.reset()
   };
   return (
@@ -25,7 +25,7 @@ function Contact() {
             <MdOutlineMailOutline className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>FONGANG23@gmail.com</h5>
-            <a href='mailto:takemjim43@gmail.com'>Send a message </a>
+            <a href='mailto:fongangpaul23@gmail.com'>Send a message </a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
